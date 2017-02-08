@@ -1,2 +1,2 @@
 # Lab4new
-Retry Repo
+Retry Repositorie
