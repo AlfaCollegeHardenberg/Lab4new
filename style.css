@@ -1,0 +1,62 @@
+/******************/
+/*   Backgrounds  */
+/******************/
+
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+
+.contentContainer {
+	width: 50%;
+	height: 50%;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-left: 25%;
+}
+
+/******************/
+/*     Fonts  	  */
+/******************/
+
+h1, h2, h3, h4, p, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	margin-left: 20px;
+}
+
+.welkom {
+	text-align: center;
+}
+
+input {
+background-color: rgba(0,0,0,0.1);
+color: black;
+border: none;
+height: 40px;
+width: 200px;
+margin-left: 38%;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: rgba(0,0,0,0.5);
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: rgba(0,0,0,0.5);
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: rgba(0,0,0,0.5);
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: rgba(0,0,0,0.5);
+}
+
+input:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+
